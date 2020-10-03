@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  margin:100px auto 100px auto;
+  width: 4%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color:#66BFBF;
+  background-color: #EAF6F6;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px
+}
+.profile-img{
+  width: 25%;
+  margin-top: 50px;
+}
+
+.middle-container{
+  margin: 100px auto 100px auto;
+}
+
+.intro{
+  width:30%;
+  margin: auto;
+}
+
+.p{
+  line-height: 2;
+}
+.code-img{
+  width:25%;
+  float: left;
+  margin-right: 10%;
+}
+.cooking-img{
+  width: 25%;
+  float: right;
+  margin-left: 10%;
+}
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+
+.pro {
+  text-decoration: underline;
+}
+.bottom-container{
+  background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+
+a{
+  color: #11999E;
+  font:  'Montserrat', sans-serif;
+  margin:10px 20px;
+text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6
+}
+
+.contact-message{
+  width:30%;
+  margin:40px auto 60px;
+}
+
+.copyright{
+  color:#EAF6F6;
+  padding: 20px 10px;
+  font-size: 0.75rem
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.btn {
+  padding: 40px;
+  box-shadow: 1px 1px 20px 0 #000;
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  border-radius: 8px;
+  font-weight: 100;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  border: solid #337FED 1px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 40px;
+  text-shadow: 1px 1px 20px #000;
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #28c4ad, #30e3cb);
+}
